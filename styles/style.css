@@ -123,6 +123,44 @@ header{
     text-decoration: underline;
 }
 
+.avis-stitle {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.avis-stitle h3 {
+    text-decoration: underline;
+}
+
+.avis-info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: solid 1px white;
+}
+
+.avis-info h4 {
+    text-decoration: underline;
+    color: white;
+}
+
+.avis-info p {
+    color: white;
+}
+
+.avis-info iframe {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+
 
 div {
     overflow-x: hidden;
