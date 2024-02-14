@@ -89,6 +89,18 @@ header{
     padding-bottom: 50px;
 }
 
+.stitle-nos {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.info-nos {
+    background-color: white;
+    text-align: center;
+}
+
 /*Section*/
 
 section {
