@@ -197,6 +197,12 @@ iframe {
     padding-bottom: 50px;
 }
 
+.dragon-map {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
 /*Footer*/
 
 footer {
