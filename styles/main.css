@@ -168,27 +168,31 @@ footer {
     background-color: #C10000;
     height: 120px;
   }
-  footer .derechos {
+  
+   .derechos {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     height: 100px;
   }
-  footer .derechos p {
+  
+  .derechos p {
     color: #EEEEEE;
     margin: 0px;
   }
-  footer .derechos .redes_sociales {
+  
+  .redes_sociales {
     display: flex;
     justify-content: space-evenly;
     width: 180px;
     color: #EEEEEE;
   }
-  footer .derechos .redes_sociales a {
+   .redes_sociales a {
     text-decoration: none;
     color: #EEEEEE;
   }
-  footer .derechos .redes_sociales a i {
+  
+  .redes_sociales a i {
     font-size: 20px;
   }
