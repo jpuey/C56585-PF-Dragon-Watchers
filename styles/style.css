@@ -123,6 +123,34 @@ header{
     text-decoration: underline;
 }
 
+
+.folk-info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: solid 1px white;
+}
+
+.folk-info h3 {
+    color: white;
+}
+
+.folk-info p {
+    color: white;
+}
+
+.folk-info nav ul li a {
+    color: white;
+}
+
+.folk-info iframe {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+
 .avis-stitle {
     background-color: white;
     display: flex;
@@ -166,6 +194,17 @@ div {
     overflow-x: hidden;
 }
 
+ul {
+    list-style-type: none;
+}
+
+.btn {
+    border: solid 1px white;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 /*Section*/
 
 section {
@@ -183,6 +222,19 @@ iframe {
     padding: 0;
     padding-bottom: 50px;
 
+}
+
+.sec-music {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.sec-music h4 {
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 50px;
 }
 
 .formulario {
