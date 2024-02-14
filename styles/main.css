@@ -110,6 +110,10 @@ header{
     margin-bottom: 50px;
 }
 
+.nos-info h3 {
+    text-decoration: underline;
+}
+
 /*Section*/
 
 section {
