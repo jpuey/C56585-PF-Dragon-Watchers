@@ -64,24 +64,88 @@
 
       </header>
       <main class="grid-container">
-        <div>
-            <ol class="list-group list-group-numbered">
-                <li class="list-group-item">A list item</li>
-                <li class="list-group-item">A list item</li>
-                <li class="list-group-item">A list item</li>
-              </ol>
+        <div class="nos-indice">
+            <nav>
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item list-group-item-action"><a href="#somos">¿Quienes Somos?</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#hacemos">¿Que Hacemos?</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#miembros">¿Quienes Son Nuestros Miembros?</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#impacto">¿Que Impacto Tenemos en la vida de nuestros miembros?</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#resumen">En Resumen</a></li>
+                </ol>
+            </nav>
         </div>
-        <div class="stitle-nos">
+        <div class="nos-stitle">
             <h2>AHORA DEJANOS CONTARTE SOBRE NOSOTROS</h2>
         </div>
-        <div class="info-nos">
-            <h3>¿Quienes Somos?</h3>
+        <div class="nos-info">
+            <h3 id="somos">¿Quienes Somos?</h3>
             <p>En un mundo donde los dragones son solo criaturas míticas, un grupo de personas se reúnen para compartir su amor por estas criaturas legendarias. Dragon Watchers es un grupo internacional de entusiastas de los dragones que se reúnen en línea y en persona para discutir su pasión por los dragones.</p>
         </div>
+        <div class="nos-info">
+          <h3 id="hacemos">¿Que Hacemos?</h3>
+          <p>El club ofrece una variedad de actividades y recursos para sus miembros. Los miembros pueden participar en foros de discusión, compartir fotos y videos de dragones, y aprender sobre la historia y la cultura de los dragones. El club también organiza eventos en persona, como convenciones y reuniones, donde los miembros pueden conocerse y compartir su amor por los dragones.</p>
+        </div>
+        <div class="nos-info">
+            <h3 id="miembros">¿Quienes son nuestros miembros?</h3>
+          <p>Los miembros del club son personas de todas las edades y orígenes. Hay miembros que se han enamorado de los dragones desde que eran niños, y hay miembros que se han interesado en los dragones más tarde en la vida. Los miembros del club provienen de todo el mundo, y comparten una pasión común por los dragones.</p>
+        </div>
+        <div class="nos-info">
+            <h3 id="impacto">Nuestro impacto en la vida de nuestros miembros</h3> 
+          <p>El club tiene un impacto positivo en la vida de sus miembros. El club les brinda un lugar para conectarse con otros fanáticos de los dragones, aprender sobre los dragones y compartir su amor por estas criaturas legendarias. El club también ayuda a promover la comprensión y la apreciación de los dragones en la cultura popular.</p>
+        </div>
+        <div class="nos-info">
+            <h3 id="resumen">En Resumen</h3>
+          <p>El Club de Fans de Dragones es una comunidad vibrante y acogedora para todos los que aman los dragones. El club ofrece una variedad de actividades y recursos para sus miembros, y tiene un impacto positivo en la vida de sus miembros.</p>
+        </div>
       </main>
-      
-      
-      
+      <section>
+        <div class="nos-stitle">
+            <h2>AHORA CONTANOS SOBRE VOS</h2>
+        </div>
+        <div class="div-formulario">
+            <form action="form.php" method="post" class="formulario">
+                <div class="mb-3">
+                <label for="Tu Nombre" class="form-label">Agregar tu nombre</label>
+                <input type="text" name="Tu Nombre" id="Tu Nombre" placeholder="Tu nombre">
+                </div>
+                <div class="mb-3">
+                <label for="Tu Apellido">Agregar tu Apellido</label>
+                <input type="text" name="Tu Apellido" id="Tu Apellido" placeholder="Tu Apellido">
+                </div>
+                <div class="mb-3">
+                <label for="Tu Ubicacion">Tu Ubicacion</label>
+                <select name="Tu Ubicacion" id="Tu Ubicacion">Tu Ubicacion
+                    <option value="">Argentina</option>
+                    <option value="">Uruguay</option>
+                    <option value="">Peru</option>
+                    <option value="">Paraguay</option>
+                    <option value="">Chile</option>
+                    <option value="">Tierra Media</option>
+                </select>
+                </div>
+                <div class="mb-3">
+                <label for="Comentarios">Comentarios</label>
+                </div>
+                <textarea name="Comentarios" id="Comentarios" cols="30" rows="10" placeholder="Tus Comentarios"  class="w-100"></textarea>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+                  <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+      </section>
+        
       <footer>
         <div class="social-logo">
             <img src="../assets/dragon-watchers-high-resolution-logo-black.png" alt="logo dragon watchers">
