@@ -97,12 +97,15 @@ header {
 
 .nos-indice {
   padding-right: 0px;
+  display: flex;
+}
+.nos-indice nav ol li {
+  align-content: center;
+  text-align: center;
 }
 .nos-indice nav ol li a {
   color: rgb(255, 154, 0);
-}
-.nos-indice nav ol li a:hover {
-  background-color: black;
+  text-align: center;
 }
 
 .nos-indice {
