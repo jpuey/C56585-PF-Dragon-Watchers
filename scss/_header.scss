@@ -23,8 +23,12 @@ header{
         li{
             a{
                 color: $color-tipografia;
+                &:hover{
+                    color: $color-hover;
+                }
             }
         }
+        
     }
 }
 

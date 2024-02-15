@@ -47,6 +47,9 @@ header {
 .navbar ul li a {
   color: white;
 }
+.navbar ul li a:hover {
+  color: rgb(255, 154, 0);
+}
 
 .site-title {
   display: flex;
