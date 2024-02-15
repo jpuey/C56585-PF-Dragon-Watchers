@@ -1,5 +1,4 @@
 header{
-    border: solid, black;
     background-image: url(../assets/dragon-azul.jpg);
     background-size: cover;
     background-position-y: 25%;
@@ -11,7 +10,7 @@ header{
 
 
 .navbar {
-    background-color: rgba(157,199,218,255);
+    background-color: $color-navbar;
     position: fixed;
     top: 0;
     z-index: 1500;
@@ -23,7 +22,7 @@ header{
     ul {
         li{
             a{
-                color: white;
+                color: $color-tipografia;
             }
         }
     }
@@ -34,7 +33,7 @@ header{
     text-align: center;
     justify-content: center;
     h1 {
-        color: white;
+        color: $color-subtitulos;
         font-weight: 700;
     }
 }

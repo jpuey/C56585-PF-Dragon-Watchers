@@ -15,24 +15,20 @@ footer {
     align-items: center;
     height: 100px;
     p{
-        color: #EEEEEE;
+        color: $color-tipografia;
         margin: 0px;
     }
   }
   
-  .derechos p {
-    color: #EEEEEE;
-    margin: 0px;
-  }
   
   .redes_sociales {
     display: flex;
     justify-content: space-evenly;
     width: 180px;
-    color: #EEEEEE;
+    color: map-get($colors , secundary);
     a{
         text-decoration: none;
-        color: #EEEEEE;
+        color: $color-tipografia;
         i{
          font-size: 20px; 
         }

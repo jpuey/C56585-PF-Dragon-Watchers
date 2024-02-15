@@ -25,7 +25,6 @@
 }
 
 header {
-  border: solid, black;
   background-image: url(../assets/dragon-azul.jpg);
   background-size: cover;
   background-position-y: 25%;
@@ -189,7 +188,7 @@ header {
 }
 .avis-info h4 {
   text-decoration: underline;
-  color: white;
+  color: black;
 }
 .avis-info p {
   color: white;
@@ -256,12 +255,7 @@ footer {
   height: 100px;
 }
 .derechos p {
-  color: #EEEEEE;
-  margin: 0px;
-}
-
-.derechos p {
-  color: #EEEEEE;
+  color: white;
   margin: 0px;
 }
 
@@ -269,11 +263,11 @@ footer {
   display: flex;
   justify-content: space-evenly;
   width: 180px;
-  color: #EEEEEE;
+  color: white;
 }
 .redes_sociales a {
   text-decoration: none;
-  color: #EEEEEE;
+  color: white;
 }
 .redes_sociales a i {
   font-size: 20px;

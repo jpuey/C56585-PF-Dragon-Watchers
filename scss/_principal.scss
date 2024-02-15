@@ -1,5 +1,5 @@
 .grid-container {
-    background-color: rgba(85, 159, 226);
+    background-color: map-get($colors , primary );
     display: flex;
     flex-direction: column;
 }
@@ -24,7 +24,7 @@
     align-content: center;
     justify-content: center;
         h2 {
-            color: black;
+            color: $color-h2;
             text-align: center
         }
 }
@@ -57,13 +57,13 @@
 }
     &-stitle {
         text-align: center;
-        color: white;
+        color: $color-subtitulos;
         padding-top: 50px;
         padding-bottom: 50px;
         text-decoration: underline;
     }
     &-info {
-        background-color: white;
+        background-color: map-get($colors , secundary );
         text-align: center;
         margin-top: 50px;
         margin-bottom: 50px;
@@ -80,18 +80,18 @@
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
-    border: solid 1px white;
+    border: solid 1px map-get($colors , secundary );
     h3 {
-        color: white;
+        color: $color-subtitulos;
     }
     p{
-        color: white; 
+        color: $color-tipografia; 
     }
     nav{
         ul{
             li{
                 a{
-                    color: white;
+                    color:$color-tipografia;
                 }
             }
         }
@@ -108,7 +108,7 @@
     display: flex;
     text-align: center;
     flex-direction: column;
-    color: white;
+    color: map-get($colors , secundary );
     margin-top: 50px;
     margin-bottom: 50px;
 
@@ -135,7 +135,7 @@
 
 .avis{
     &-stitle {
-    background-color: white;
+    background-color: map-get($colors , secundary );
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -151,13 +151,13 @@
         margin-top: 50px;
         margin-bottom: 50px;
         text-align: center;
-        border: solid 1px white;
+        border: solid 1px map-get($colors, secundary );
         h4{
             text-decoration: underline;
-            color: white;
+            color: $color-h2;
           }
         p{
-         color: white; 
+         color: $color-tipografia; 
         }
         iframe{
                 width: 100%;
