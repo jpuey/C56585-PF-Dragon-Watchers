@@ -173,11 +173,13 @@ header{
     justify-content: space-between;
     margin-top: 50px;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .deck-alt {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .card {
