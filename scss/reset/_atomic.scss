@@ -18,16 +18,25 @@ ul {
 }
 
 .btn {
-    border: solid 1px white;
-    color: white;
+    border: solid 1px map-get($colors, secundary );
+    color: map-get($colors, secundary );
     margin-top: 5px;
     margin-bottom: 5px;
+    &:hover{
+        color: $color-hover;
+        border: solid 1 px $color-hover;
+        background-color: map-get($colors, secundary);
+    }
 }
 
 h2 {
     display:inline;
-    background-color: white;
-    color: black;
+    background-color: map-get($colors , secundary);
+    color: $color-h2;
     font-weight: 500;
     margin-bottom: 50px;
+}
+
+h4 {
+    color: $color-subtitulos;
 }

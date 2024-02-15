@@ -38,9 +38,28 @@
 }
 
 
+.formulario-div{
+    label{
+        color: $color-tipografia
+    }
+}
+
+
 .nos-indice {
     padding-right: 0px;
-}
+    nav{
+        ol{
+            li{
+                a{
+                    color: $color-titulos;
+                    &:hover{
+                         background-color: black;
+                    }
+                }
+                }
+            }
+        }
+    }
 
 .nos{
     &-indice {
@@ -117,7 +136,7 @@
 
 .deck {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 50px;
     margin-bottom: 50px;
     flex-wrap: wrap;
@@ -130,7 +149,12 @@
 
 
 .card {
-    max-width: 18rem;
+    max-width: 25rem;
+    border: solid 1px black;
+    text-align: center;
+    p{
+        color: $color-hover;
+    }
 }
 
 .avis{

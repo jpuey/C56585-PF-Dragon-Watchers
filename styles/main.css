@@ -91,8 +91,18 @@ header {
   padding-bottom: 50px;
 }
 
+.formulario-div label {
+  color: white;
+}
+
 .nos-indice {
   padding-right: 0px;
+}
+.nos-indice nav ol li a {
+  color: rgb(255, 154, 0);
+}
+.nos-indice nav ol li a:hover {
+  background-color: black;
 }
 
 .nos-indice {
@@ -152,7 +162,7 @@ header {
 
 .deck {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 50px;
   margin-bottom: 50px;
   flex-wrap: wrap;
@@ -164,7 +174,12 @@ header {
 }
 
 .card {
-  max-width: 18rem;
+  max-width: 25rem;
+  border: solid 1px black;
+  text-align: center;
+}
+.card p {
+  color: rgb(255, 154, 0);
 }
 
 .avis-stitle {
@@ -297,6 +312,11 @@ ul {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+.btn:hover {
+  color: rgb(255, 154, 0);
+  border: solid 1 px rgb(255, 154, 0);
+  background-color: white;
+}
 
 h2 {
   display: inline;
@@ -304,6 +324,10 @@ h2 {
   color: black;
   font-weight: 500;
   margin-bottom: 50px;
+}
+
+h4 {
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
