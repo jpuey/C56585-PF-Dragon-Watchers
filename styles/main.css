@@ -82,7 +82,7 @@ header {
   justify-content: center;
 }
 .intro-subtitle h2 {
-  color: black;
+  color: rgb(255, 154, 0);
   text-align: center;
 }
 .intro-text p {
@@ -98,6 +98,9 @@ header {
 .nos-indice {
   padding-right: 0px;
   display: flex;
+  margin-top: 50px;
+  width: 55%;
+  align-self: center;
 }
 .nos-indice nav ol li {
   align-content: center;
@@ -106,6 +109,9 @@ header {
 .nos-indice nav ol li a {
   color: rgb(255, 154, 0);
   text-align: center;
+}
+.nos-indice nav ol li a:hover {
+  color: black;
 }
 
 .nos-indice {
@@ -120,6 +126,9 @@ header {
   padding-top: 50px;
   padding-bottom: 50px;
   text-decoration: underline;
+}
+.nos-stitle h2 {
+  color: rgb(255, 154, 0);
 }
 .nos-info {
   background-color: white;
@@ -206,7 +215,7 @@ header {
 }
 .avis-info h4 {
   text-decoration: underline;
-  color: black;
+  color: white;
 }
 .avis-info p {
   color: white;
@@ -324,7 +333,7 @@ ul {
 h2 {
   display: inline;
   background-color: white;
-  color: black;
+  color: white;
   font-weight: 500;
   margin-bottom: 50px;
 }

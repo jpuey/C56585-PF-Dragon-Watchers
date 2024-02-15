@@ -24,7 +24,7 @@
     align-content: center;
     justify-content: center;
         h2 {
-            color: $color-h2;
+            color: $color-titulos;
             text-align: center
         }
 }
@@ -48,6 +48,9 @@
 .nos-indice {
     padding-right: 0px;
     display: flex;
+    margin-top: 50px;
+    width: 55%;
+    align-self: center;
     nav{
         ol{
             li{
@@ -56,6 +59,9 @@
                 a{
                     color: $color-titulos;
                     text-align: center;
+                    &:hover{
+                        color: black;
+                    }
                     
                 }
                 }
@@ -82,6 +88,10 @@
         padding-top: 50px;
         padding-bottom: 50px;
         text-decoration: underline;
+        h2{
+            color: $color-titulos;
+            
+        }
     }
     &-info {
         background-color: map-get($colors , secundary );
