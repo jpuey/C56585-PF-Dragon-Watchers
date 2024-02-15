@@ -82,8 +82,14 @@ header{
     padding-bottom: 50px;
 }
 
+.intro-subtitle {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
 .intro-subtitle h2 {
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -151,6 +157,23 @@ header{
     max-height: 500px;
 }
 
+.drag-info {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+}
+
+
+.deck {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 18rem;
+}
+
 .avis-stitle {
     background-color: white;
     display: flex;
@@ -204,6 +227,16 @@ ul {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+h2 {
+    display:inline;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+
 
 /*Section*/
 
