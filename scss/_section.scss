@@ -1,0 +1,39 @@
+section {
+    background-color: rgba(85, 159, 226) ;
+}
+
+.index-vid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sec-music {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h4 {
+        color: white;
+        text-decoration: underline;
+        margin-bottom: 50px;
+    }
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0;
+    &-div {
+       padding-right: 0;
+       padding-bottom: 50px;
+    } 
+}
+
+.dragon-map {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}

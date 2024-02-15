@@ -1,0 +1,274 @@
+.scale-xxl {
+  font-size: 40px;
+}
+
+.scale-xl {
+  font-size: 30px;
+}
+
+.scale-l {
+  font-size: 20px;
+}
+
+.scale-md {
+  font-size: 10px;
+}
+
+.scale-sm {
+  font-size: 5px;
+}
+
+* {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border: solid, black;
+  background-image: url(../assets/dragon-azul.jpg);
+  background-size: cover;
+  background-position-y: 25%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: rgb(157, 199, 218);
+  position: fixed;
+  top: 0;
+  z-index: 1500;
+}
+.navbar img {
+  width: 30px;
+  height: 30px;
+}
+.navbar ul li a {
+  color: white;
+}
+
+.site-title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.site-title h1 {
+  color: white;
+  font-weight: 700;
+}
+
+.grid-container {
+  background-color: rgb(85, 159, 226);
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-c {
+  display: flex;
+  width: 715px;
+  align-content: center;
+  align-self: center;
+}
+
+.carousel {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.intro-subtitle {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.intro-subtitle h2 {
+  color: black;
+  text-align: center;
+}
+.intro-text p {
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+}
+
+.nos-indice {
+  padding-right: 0px;
+}
+
+.nos-indice {
+  padding-right: 0px;
+}
+.nos-indice nav ol li a {
+  text-decoration: none;
+}
+.nos-stitle {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-decoration: underline;
+}
+.nos-info {
+  background-color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.nos-info h3 {
+  text-decoration: underline;
+}
+
+.folk-info {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: solid 1px white;
+}
+.folk-info h3 {
+  color: white;
+}
+.folk-info p {
+  color: white;
+}
+.folk-info nav ul li a {
+  color: white;
+}
+.folk-info iframe {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+
+.drag-info {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.deck {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+.deck-alt {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 18rem;
+}
+
+.avis-stitle {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.avis-stitle h3 {
+  text-decoration: underline;
+}
+.avis-info {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: solid 1px white;
+}
+.avis-info h4 {
+  text-decoration: underline;
+  color: white;
+}
+.avis-info p {
+  color: white;
+}
+.avis-info iframe {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+
+section {
+  background-color: rgb(85, 159, 226);
+}
+
+.index-vid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec-music {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.sec-music h4 {
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 50px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 0;
+}
+.formulario-div {
+  padding-right: 0;
+  padding-bottom: 50px;
+}
+
+.dragon-map {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+iframe {
+  height: 500px;
+  padding: 0;
+  padding-bottom: 50px;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+div {
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  border: solid 1px white;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  display: inline;
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=main.css.map */

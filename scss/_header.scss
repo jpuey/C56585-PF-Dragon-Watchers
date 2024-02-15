@@ -1,0 +1,40 @@
+header{
+    border: solid, black;
+    background-image: url(../assets/dragon-azul.jpg);
+    background-size: cover;
+    background-position-y: 25%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.navbar {
+    background-color: rgba(157,199,218,255);
+    position: fixed;
+    top: 0;
+    z-index: 1500;
+    img {
+        width: 30px;
+        height: 30px;
+    }
+
+    ul {
+        li{
+            a{
+                color: white;
+            }
+        }
+    }
+}
+
+.site-title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    h1 {
+        color: white;
+        font-weight: 700;
+    }
+}

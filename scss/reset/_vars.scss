@@ -1,0 +1,32 @@
+//colores
+$color-principal:rgba(85, 159, 226);
+$color-tipografia: white;
+$color-navbar: rgba(157,199,218,255);
+$color-hover: rgba(255,154,0);
+$color-titulos: rgba(0, 124, 190);
+
+
+//Mapas
+$colors: (
+    primary: #696D7D,
+    secundary: white,
+    tertiary: black,
+    quaternary: rgba(157,199,218,255),
+
+
+);
+
+$sizes: (
+    xxl: 40px,
+    xl: 30px,
+    l: 20px,
+    md:10px,
+    sm:5px,
+
+);
+
+@each $talles, $pixels in $sizes {
+    .scale-#{$talles}{
+        font-size: $pixels;
+    }
+}
