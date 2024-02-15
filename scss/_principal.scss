@@ -92,6 +92,9 @@
             color: $color-titulos;
             
         }
+        p{
+            margin-top: 50px;
+        }
     }
     &-info {
         background-color: map-get($colors , secundary );
@@ -202,3 +205,5 @@
               }
     }
 }
+
+

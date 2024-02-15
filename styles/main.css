@@ -130,6 +130,9 @@ header {
 .nos-stitle h2 {
   color: rgb(255, 154, 0);
 }
+.nos-stitle p {
+  margin-top: 50px;
+}
 .nos-info {
   background-color: white;
   text-align: center;
