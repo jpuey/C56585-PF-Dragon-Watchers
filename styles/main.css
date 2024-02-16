@@ -27,7 +27,7 @@
 header {
   background-image: url(../assets/dragon-azul.jpg);
   background-size: cover;
-  background-position-y: 25%;
+  background-position-y: 35%;
   height: 200px;
   display: flex;
   flex-direction: column;
@@ -85,13 +85,14 @@ header {
   justify-content: center;
 }
 .intro-subtitle h2 {
-  color: rgb(255, 154, 0);
+  color: white;
   text-align: center;
 }
 .intro-text p {
   text-align: center;
   margin-bottom: 0px;
   padding-bottom: 50px;
+  color: white;
 }
 
 .formulario-div label {
@@ -131,7 +132,7 @@ header {
   text-decoration: underline;
 }
 .nos-stitle h2 {
-  color: rgb(255, 154, 0);
+  color: white;
 }
 .nos-stitle p {
   margin-top: 50px;
@@ -411,10 +412,10 @@ ul {
 }
 h2 {
   display: inline;
-  background-color: white;
   color: white;
   font-weight: 500;
   margin-bottom: 50px;
+  font-weight: 500;
 }
 
 h4 {
