@@ -100,8 +100,7 @@
     &-info {
         background-color: map-get($colors , secundary );
         text-align: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        @include margin(50px,50px);
         h3 {
             text-decoration: underline;
         }
